@@ -37,5 +37,5 @@ System.out.println("Hello, my blog!");
 ## 无聊的人
 
 - :cat:
-- :milk:
+- :ghost:
 
