@@ -16,13 +16,13 @@
 
 ## => Site Settings
 ##############################
-text_skin: "chocolate" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: "tomorrow-night-eighties" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : yery的秘密自留地
+title   : yery的学习记录
 description: > # this means to ignore newlines until "Language & timezone"
-  无聊的碎碎念
+  咸鱼废柴被生活打倒，被知识拯救全纪实。
 
 
 ## => Language and Timezone
@@ -38,7 +38,7 @@ author:
   name      : yery
   url       :
   avatar    :  # path or url of avatar image (square)
-  bio       : 干枯无趣
+  bio       : 干枯无趣 & 认清自己 & 努力变人的空心复读zombie
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
