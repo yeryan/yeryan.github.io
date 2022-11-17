@@ -7,15 +7,14 @@ tags: Git
 ---
 ## Git
 ### Git初始配置 
-&emsp;1.在git设置一下身份的名字和邮箱 
-&emsp;&emsp;进入到需要提交的文件夹底下。 
+&emsp;1.在git设置一下身份的名字和邮箱    
+&emsp;&emsp;进入到需要提交的文件夹底下。   
 ```git
 {
     git config --global user.name "yourname"
-
     git config --global user.email "your@email.com"
 }
-```
+``` 
 
 &emsp;2.手动删除.ssh文件夹（直接搜索该文件夹）下的known_hosts（通常在c盘用户文件夹下）
 
@@ -34,7 +33,7 @@ tags: Git
 &emsp; &emsp;一路回车，系统会自动在.ssh文件夹下生成两个文件，id_rsa和id_rsa.pub。  
 &emsp; &emsp;用记事本打开id_rsa.pub，将全部的内容复制到剪切板。 
 
-&emsp;4.打开<https://github.com/>，登陆你的账户，进入设置 
+&emsp;4.打开<https://github.com/>，登陆你的账户，进入设置     
 &emsp;&emsp;进入ssh设置 -> New SSH Key -> 粘贴剪切板中的内容 -> 点击 add SSH Key 
 
 &emsp;5.在git中输入命令 
@@ -43,13 +42,13 @@ tags: Git
     ssh -T git@github.com
 }
 ``` 
-&emsp;&emsp;输入命令：yes 
+&emsp;&emsp;输入命令：yes      
 &emsp;&emsp;配置成功！ 
 
-&emsp;6.新建仓库与本地连接 
-&emsp;&emsp;在GitHub上新建项目。 
-&emsp;&emsp;在要上传的本地文件夹中右键GitBash。 
-&emsp;&emsp;输入命令创建新项目并上传： 
+&emsp;6.新建仓库与本地连接     
+&emsp;&emsp;在GitHub上新建项目。    
+&emsp;&emsp;在要上传的本地文件夹中右键GitBash。   
+&emsp;&emsp;输入命令创建新项目并上传：   
 ```git
 {
     git init 
